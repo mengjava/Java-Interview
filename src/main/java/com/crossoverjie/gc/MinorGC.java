@@ -29,7 +29,7 @@ public class MinorGC {
 
         one = new byte[2 * SIZE] ;
 
-
+        //test
         //再分配一个 5M 内存时，Eden区不够了，
         four = new byte[5 * SIZE] ;
     }
